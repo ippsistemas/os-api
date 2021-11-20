@@ -1,0 +1,287 @@
+package br.com.codiub.ordemservicos.model.output;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.codiub.ordemservicos.model.entity.Execucoes;
+import lombok.Data;
+
+@Data
+public class ExecucoesOutput {
+    
+private Long id;
+private String tipoExecucao;
+private Long osServico;
+private Long situacaoExecucao;
+private String turno;
+private String setorExecucao;
+private String dataExecucao;
+private String horaioInicio;
+private String horaioSaida;
+private String horaioTermino;
+private String observacao;
+private String dataHora;
+private String leitura;
+private String motivo;
+private Long tipoCorte;
+
+
+   
+
+    public ExecucoesOutput entityToOutput(Execucoes execucoes) {
+        ExecucoesOutput execucoesOutput = new ExecucoesOutput();
+
+Memo5
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipefuncionarioOutput.setId(equipefuncionario.getId());
+equipefuncionarioOutput.setEquipe(equipefuncionario.getEquipe());
+equipefuncionarioOutput.setEmpresa(equipefuncionario.getEmpresa());
+equipefuncionarioOutput.setMatricula(equipefuncionario.getMatricula());
+equipefuncionarioOutput.setOcupacao(equipefuncionario.getOcupacao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+equipesOutput.setId(equipes.getId());
+equipesOutput.setEquipe(equipes.getEquipe());
+equipesOutput.setSubSecao(equipes.getSubSecao());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaomateriaisOutput.setId(execucaomateriais.getId());
+execucaomateriaisOutput.setExecucao(execucaomateriais.getExecucao());
+execucaomateriaisOutput.setMaterial(execucaomateriais.getMaterial());
+execucaomateriaisOutput.setDescricao(execucaomateriais.getDescricao());
+execucaomateriaisOutput.setQuantidade(execucaomateriais.getQuantidade());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoobservacoesOutput.setId(execucaoobservacoes.getId());
+execucaoobservacoesOutput.setExecucao(execucaoobservacoes.getExecucao());
+execucaoobservacoesOutput.setTipoObservacao(execucaoobservacoes.getTipoObservacao());
+execucaoobservacoesOutput.setObservacao(execucaoobservacoes.getObservacao());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucaoveiculosOutput.setId(execucaoveiculos.getId());
+execucaoveiculosOutput.setExecucao(execucaoveiculos.getExecucao());
+execucaoveiculosOutput.setVeiculo(execucaoveiculos.getVeiculo());
+execucoesOutput.setId(execucoes.getId());
+execucoesOutput.setTipoExecucao(execucoes.getTipoExecucao());
+execucoesOutput.setOsServico(execucoes.getOsServico());
+execucoesOutput.setSituacaoExecucao(execucoes.getSituacaoExecucao());
+execucoesOutput.setTurno(execucoes.getTurno());
+execucoesOutput.setSetorExecucao(execucoes.getSetorExecucao());
+execucoesOutput.setDataExecucao(execucoes.getDataExecucao());
+execucoesOutput.setHoraioInicio(execucoes.getHoraioInicio());
+execucoesOutput.setHoraioSaida(execucoes.getHoraioSaida());
+execucoesOutput.setHoraioTermino(execucoes.getHoraioTermino());
+execucoesOutput.setObservacao(execucoes.getObservacao());
+execucoesOutput.setDataHora(execucoes.getDataHora());
+execucoesOutput.setLeitura(execucoes.getLeitura());
+execucoesOutput.setMotivo(execucoes.getMotivo());
+execucoesOutput.setTipoCorte(execucoes.getTipoCorte());
+execucoesOutput.setId(execucoes.getId());
+execucoesOutput.setTipoExecucao(execucoes.getTipoExecucao());
+execucoesOutput.setOsServico(execucoes.getOsServico());
+execucoesOutput.setSituacaoExecucao(execucoes.getSituacaoExecucao());
+execucoesOutput.setTurno(execucoes.getTurno());
+execucoesOutput.setSetorExecucao(execucoes.getSetorExecucao());
+execucoesOutput.setDataExecucao(execucoes.getDataExecucao());
+execucoesOutput.setHoraioInicio(execucoes.getHoraioInicio());
+execucoesOutput.setHoraioSaida(execucoes.getHoraioSaida());
+execucoesOutput.setHoraioTermino(execucoes.getHoraioTermino());
+execucoesOutput.setObservacao(execucoes.getObservacao());
+execucoesOutput.setDataHora(execucoes.getDataHora());
+execucoesOutput.setLeitura(execucoes.getLeitura());
+execucoesOutput.setMotivo(execucoes.getMotivo());
+execucoesOutput.setTipoCorte(execucoes.getTipoCorte());
+execucoesOutput.setId(execucoes.getId());
+execucoesOutput.setTipoExecucao(execucoes.getTipoExecucao());
+execucoesOutput.setOsServico(execucoes.getOsServico());
+execucoesOutput.setSituacaoExecucao(execucoes.getSituacaoExecucao());
+execucoesOutput.setTurno(execucoes.getTurno());
+execucoesOutput.setSetorExecucao(execucoes.getSetorExecucao());
+execucoesOutput.setDataExecucao(execucoes.getDataExecucao());
+execucoesOutput.setHoraioInicio(execucoes.getHoraioInicio());
+execucoesOutput.setHoraioSaida(execucoes.getHoraioSaida());
+execucoesOutput.setHoraioTermino(execucoes.getHoraioTermino());
+execucoesOutput.setObservacao(execucoes.getObservacao());
+execucoesOutput.setDataHora(execucoes.getDataHora());
+execucoesOutput.setLeitura(execucoes.getLeitura());
+execucoesOutput.setMotivo(execucoes.getMotivo());
+execucoesOutput.setTipoCorte(execucoes.getTipoCorte());
+execucoesOutput.setId(execucoes.getId());
+execucoesOutput.setTipoExecucao(execucoes.getTipoExecucao());
+execucoesOutput.setOsServico(execucoes.getOsServico());
+execucoesOutput.setSituacaoExecucao(execucoes.getSituacaoExecucao());
+execucoesOutput.setTurno(execucoes.getTurno());
+execucoesOutput.setSetorExecucao(execucoes.getSetorExecucao());
+execucoesOutput.setDataExecucao(execucoes.getDataExecucao());
+execucoesOutput.setHoraioInicio(execucoes.getHoraioInicio());
+execucoesOutput.setHoraioSaida(execucoes.getHoraioSaida());
+execucoesOutput.setHoraioTermino(execucoes.getHoraioTermino());
+execucoesOutput.setObservacao(execucoes.getObservacao());
+execucoesOutput.setDataHora(execucoes.getDataHora());
+execucoesOutput.setLeitura(execucoes.getLeitura());
+execucoesOutput.setMotivo(execucoes.getMotivo());
+execucoesOutput.setTipoCorte(execucoes.getTipoCorte());
+execucoesOutput.setId(execucoes.getId());
+execucoesOutput.setTipoExecucao(execucoes.getTipoExecucao());
+execucoesOutput.setOsServico(execucoes.getOsServico());
+execucoesOutput.setSituacaoExecucao(execucoes.getSituacaoExecucao());
+execucoesOutput.setTurno(execucoes.getTurno());
+execucoesOutput.setSetorExecucao(execucoes.getSetorExecucao());
+execucoesOutput.setDataExecucao(execucoes.getDataExecucao());
+execucoesOutput.setHoraioInicio(execucoes.getHoraioInicio());
+execucoesOutput.setHoraioSaida(execucoes.getHoraioSaida());
+execucoesOutput.setHoraioTermino(execucoes.getHoraioTermino());
+execucoesOutput.setObservacao(execucoes.getObservacao());
+execucoesOutput.setDataHora(execucoes.getDataHora());
+execucoesOutput.setLeitura(execucoes.getLeitura());
+execucoesOutput.setMotivo(execucoes.getMotivo());
+execucoesOutput.setTipoCorte(execucoes.getTipoCorte());
+
+        
+ 
+        return execucoesOutput;
+    }
+
+
+    public List<ExecucoesOutput> entityListToOutputList(List<Execucoes> execucoesList) {
+        List<ExecucoesOutput> execucoesOutputList = new ArrayList<>();
+
+        execucoesList.forEach(execucoes -> 
+            execucoesOutputList.add(entityToOutput(execucoes))
+        );
+
+        return execucoesOutputList;
+    }
+
+}
